@@ -53,5 +53,7 @@ section button {
   color: #fafafa;
   border-radius: 2rem;
   padding: .75rem 2rem;
+  position: relative;
+  left: 31.5%;
 }
 /*# sourceMappingURL=style.css.map */
