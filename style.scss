@@ -22,14 +22,25 @@ section{
     }
     h1{
         color: hsl(228, 39%, 23%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 0rem 7rem 1rem 7rem;
+        font-size: 30px;
+        
     }
     p{
         color: hsl(227, 12%, 61%);
+        padding: 1rem 7rem 1rem 7rem;
+        text-align: center;
+        text-align: justify;
     }
     button{
         background-color: hsl(12, 88%, 59%);
         color: hsl(0, 0%, 98%);
         border-radius: 2rem;
         padding: .75rem 2rem;
+        
     }
 }
