@@ -1,1 +1,41 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-family: 'Be Vietnam', sans-serif;
+}
 
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+}
+
+section img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  height: auto;
+  padding: 2rem;
+}
+
+section h1 {
+  color: #242d52;
+}
+
+section p {
+  color: #9095a7;
+}
+
+section button {
+  background-color: #f25f3a;
+  color: #fafafa;
+  border-radius: 2rem;
+  padding: .75rem 2rem;
+}
+/*# sourceMappingURL=style.css.map */
