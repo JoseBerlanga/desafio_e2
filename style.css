@@ -56,4 +56,57 @@ section button {
   position: relative;
   left: 31.5%;
 }
+
+footer {
+  background-color: #1d1e25;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+}
+
+footer div input {
+  width: 13rem;
+  height: 3rem;
+  margin: 2rem;
+  border-radius: 2rem;
+}
+
+footer div button {
+  background-color: #f25f3a;
+  color: white;
+  height: 3rem;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+footer ul {
+  background-color: aqua;
+  height: 5rem;
+  padding: 2rem 0 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer ul li {
+  background-color: peru;
+  width: 4rem;
+  height: 2rem;
+  margin: .2rem;
+}
 /*# sourceMappingURL=style.css.map */
