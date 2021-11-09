@@ -1,1 +1,401 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Be Vietnam', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/bg-tablet-pattern.svg");
+  background-position: top right;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
+nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+}
+
+.first-sect {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*.general-button{
+        background-color: $Bright-Red;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        padding: 8px;
+        margin: 1rem;
+        border-radius: 1rem;
+        margin-left: 4rem;
+        font-family: 'Be Vietnam', sans-serif;
+        color: $Very-Pale-Red;
+        font-size: 12px;
+        border: none;
+    }*/
+}
+
+.first-sect img {
+  width: 100vw;
+  padding: 1rem;
+}
+
+.first-sect h1, .first-sect h2 {
+  padding: 0rem 1rem 0 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  font-size: 2rem;
+  color: #242d52;
+}
+
+.first-sect .paragraph-notlistu {
+  padding: 4px  2.75rem 0rem 3rem;
+  font-size: 15px;
+  text-align: justify;
+  color: #9095a7;
+}
+
+.first-sect button {
+  margin-bottom: 6rem;
+}
+
+.first-sect .paragraph-notlistd {
+  padding: 1rem 2rem 2rem 3rem;
+  font-size: 13px;
+  color: #9095a7;
+  text-align: center;
+}
+
+.first-sect span {
+  background-color: #f25f3a;
+  padding: 4px 16px;
+  margin-right: 4px;
+  border-radius: 1rem;
+  text-align: center;
+  font-family: 'Be Vietnam', sans-serif;
+  color: #ffefeb;
+  font-size: 12px;
+  border: none;
+}
+
+.first-sect h3 {
+  background-color: #ffefeb;
+  padding: .5rem;
+  color: #242d52;
+  font-size: 13px;
+}
+
+.first-sect .paragraph-list {
+  padding: 0.5rem 3rem 2rem 1rem;
+  font-size: 13px;
+  color: #9095a7;
+  text-align: left;
+  margin-top: none;
+}
+
+.unique-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.unique-article h2 {
+  color: #242d52;
+  text-align: center;
+  padding: 0rem 6rem 1rem 6rem;
+  font-size: 30px;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.unique-article .avatar1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+
+.unique-article h3 {
+  background-color: #fafafa;
+  color: #242d52;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 0rem;
+}
+
+.unique-article p {
+  background-color: #fafafa;
+  color: #9095a7;
+  padding: 1rem 3.5rem 1rem 3.5rem;
+  text-align: center;
+  font-size: 18px;
+  margin: 0rem;
+}
+
+.unique-article button {
+  background-color: #f25f3a;
+  color: #fafafa;
+  border-radius: 2rem;
+  padding: .75rem 1rem;
+  position: relative;
+  left: 30%;
+  cursor: pointer;
+  margin-top: 8rem;
+}
+
+.second-sect {
+  background-color: #f25f3a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 1rem;
+}
+
+.second-sect h1 {
+  color: #fafafa;
+  padding: 2.25rem 2.25rem 2.25rem 2.25rem;
+  font-size: 32px;
+  text-align: center;
+}
+
+.second-sect button {
+  background-color: #fafafa;
+  color: #f25f3a;
+  font-weight: bold;
+  margin-top: none;
+}
+
+button {
+  background-color: #f25f3a;
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px;
+  margin: 1rem;
+  border-radius: 1rem;
+  font-family: 'Be Vietnam', sans-serif;
+  color: #ffefeb;
+  font-size: 12px;
+  border: none;
+}
+
+footer {
+  background-color: #1d1e25;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer div input {
+  width: 100%;
+  height: 3rem;
+  margin: 2rem 1rem 0rem 1rem;
+  border-radius: 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+footer div button {
+  background-color: #f25f3a;
+  color: white;
+  width: 20%;
+  height: 3rem;
+  border-radius: 2rem;
+  padding: 1rem 1rem;
+  margin: 2rem 1rem 0rem 2rem;
+  text-align: center;
+}
+
+footer .first-list {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem 3rem;
+  list-style-type: none;
+}
+
+footer .first-list li {
+  width: 8rem;
+  height: 2rem;
+  margin: .2rem;
+  color: #fafafa;
+}
+
+footer .second-list {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem 3rem;
+  list-style-type: none;
+}
+
+footer .second-list li {
+  width: 8rem;
+  height: 2rem;
+  margin: .2rem;
+  text-align: justify;
+  color: #fafafa;
+}
+
+footer .lastdiv-foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+footer .lastdiv-foot img {
+  width: 2.5rem;
+}
+
+footer .last-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem;
+  -webkit-filter: invert(100);
+          filter: invert(100);
+  fill: white;
+}
+
+footer p {
+  padding: 2rem;
+  text-align: center;
+  color: #fafafa;
+  font-size: 10px;
+}
+
+/* 
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+section{
+    img{
+        align-items: center;
+        width: 90%;
+        height: auto;
+        padding: 2rem;
+    }
+    h1{
+        color: hsl(228, 39%, 23%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 0rem 7rem 1rem 7rem;
+        font-size: 30px;
+        
+    }
+    p{
+        color: hsl(227, 12%, 61%);
+        padding: 1rem 7rem 1rem 7rem;
+        text-align: center;
+        text-align: justify;
+    }
+    button{
+        background-color: hsl(12, 88%, 59%);
+        color: hsl(0, 0%, 98%);
+        border-radius: 2rem;
+        padding: .75rem 2rem;
+        position: relative;
+        left: 31.5%;
+    }
+}
+*/
+/*# sourceMappingURL=style.css.map */
